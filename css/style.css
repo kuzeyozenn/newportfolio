@@ -23,7 +23,7 @@ img{
 }
 section{
     padding: 40px 0;
-    background: #778899;
+    background: #ADD8E6;
 }
 .section_title{
     margin-bottom: 30px;
@@ -87,4 +87,44 @@ header{
 .logo h2 a:hover,
 .logo h2 a:active{
     color: #F08080
+      }
+
+.inner-anasayfa{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 80%;
+    color: #fff;
+}
+.child_anasayfa{
+    flex-basis: 45%;
+}
+.child_anasayfa h1{
+    font-size: 50;
+    color: #4169E1;
+}
+.span_child{
+    color: #3C9EF5;
+}
+.child_anasayfa p{
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+.btn{
+    background-color: #F08080;
+    padding: 12px 28px;
+    border-radius: 20px;
+    color: #fff;
+    border: 1px solid #FFA07A;
+    font-weight: 700;
+    cursor: pointer;
+    transition: all .2s ease;
+}
+.btn:hover{
+    background: #fff;
+    color: #4169E1;
+    letter-spacing: 2px;
+}
+
 
